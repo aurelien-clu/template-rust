@@ -1,5 +1,12 @@
 # template-rust
 
+[![Rust](https://img.shields.io/badge/Rust-Rust?style=for-the-badge&logo=Rust&color=orange)](https://www.rust-lang.org/)
+[![log](https://img.shields.io/badge/log-log?style=for-the-badge&color=yellow)](https://docs.rs/log/latest/log/)
+[![pretty_env_logger](https://img.shields.io/badge/pretty_env_logger-pretty_env_logger?style=for-the-badge&color=green)](https://docs.rs/pretty_env_logger/latest/pretty_env_logger/)
+[![tracing](https://img.shields.io/badge/tracing-tracing?style=for-the-badge&color=purple)](https://docs.rs/tracing/latest/tracing/)
+[![thiserror](https://img.shields.io/badge/thiserror-thiserror?style=for-the-badge&color=blue)](https://docs.rs/thiserror/latest/thiserror/)
+
+
 A small rust template with workspace & logging setup.
 
 ## cargo workspace
