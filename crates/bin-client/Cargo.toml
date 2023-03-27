@@ -1,0 +1,16 @@
+[package]
+name = "client"
+
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+readme.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+domain = { path = "../domain" }
+
+# logging
+log = "^0"
+pretty_env_logger = "^0"

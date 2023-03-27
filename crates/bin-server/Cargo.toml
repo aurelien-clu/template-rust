@@ -1,0 +1,20 @@
+[package]
+name = "server"
+
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+readme.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+domain = { path = "../domain" }
+
+# logging
+tracing = "^0"
+tracing-log = "^0"  # to handle logs from log, e.g. from our domain library here
+tracing-subscriber = "^0"  # to output to stdout
+
+# error handling
+thiserror = "^1"
